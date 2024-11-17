@@ -7,6 +7,8 @@ SHIFT_TIMES = {
     "evening": ("16:30", "19:15")
 }
 
+#maybe variable shift times, ex: 14:15, 16:00 -go
+
 # Define positions
 POSITIONS = [ 
     "gallery 1A", "gallery 1AX", "gallery 1B", "gallery 1BX", "gallery 1C", "gallery 1CX",
@@ -57,6 +59,14 @@ student = Student("Alex", trained_for=["lobby", "rover"])
 # Sign them up for shifts
 student.sign_up("Monday", "morning")
 student.sign_up("Monday", "mid")
+
+#student.sign_up("Monday", "close") -go
+
+#(may be silly suggestion) maybe class(?) for #"weekdays"? wednesday-sunday 
+#Day1 = Wednesday 
+#Day2 = Thursday 
+#etc... just trying to contribute lol - go
+
 
 # Assign a position
 if can_assign_position(student, "lobby"):
