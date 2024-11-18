@@ -62,11 +62,6 @@ student.sign_up("Monday", "mid")
 
 #student.sign_up("Monday", "close") -go
 
-#(may be silly suggestion) maybe class(?) for #"weekdays"? wednesday-sunday 
-#Day1 = Wednesday 
-#Day2 = Thursday 
-#etc... just trying to contribute lol - go
-
 
 # Assign a position
 if can_assign_position(student, "lobby"):
